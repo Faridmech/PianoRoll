@@ -1,0 +1,53 @@
+.piano-roll-svg {
+  width: 100px;
+  height: 60px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.piano-roll-svg-detail {
+  width: 750px;
+  height: 540px;
+  margin-right: 10px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px rgb(157, 157, 159);
+}
+
+.other-pianoRoll-container {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.piano-roll-svg-other {
+  width: 130px;
+  height: 70px;
+}
+.description-detail {
+  padding-top: 10px;
+  font-size: 22px;
+}
+.description-detail b {
+  color: rgb(208, 154, 84);
+}
+.piano-roll-svg-detail-right {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.main-pianoRoll-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+.other {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.other > div {
+  padding-left: 8px;
+  color: rgb(97, 102, 99);
+}
